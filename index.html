@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Rezervacija | Apartmani Harmony - Višegrad</title>
+
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <meta name="description" content="Otmeni i moderni, apartmani Harmony se nalaze u samom srcu Višegrada. Bilo da želite da vidite monumentalni most Mehmed-paše Sokolovića, ili da uživate u kulturnim sadržajima koje nudi Andrićgrad, potrebno vam je tek par minuta hoda.">
+    <meta name="keywords" charset="apartmani, višegrad, harmony, smeštaj, sobe, andrićgrad, rezervacije, book">
+    
+    <!--Facebook Open Graph Tags -->
+	<meta property="og:image" content="../img/cover.jpg" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Rezervacija | Apartmani Harmony - Višegra" />
+	<meta property="og:description" content="Luksuzni apartmani po povoljnim cenama!"/>	
+	<!--Facebook Open Graph Tags-->  
+    
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    <script src="https://use.fontawesome.com/a64041b7b2.js"></script>
+
+
+    <!-- <link href="css/parallax.css" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="../css/set2.css" />
+
+    <link href="../css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+
+    <!-- Custom styles for this template -->
+    <link href="../style.css" rel="stylesheet">
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Meni</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../" data-toggle="collapse" data-target="#navbar"><img src="../img/logo.png" title="Naslovna"></a>
+            </div>
+
+            <div class="lang pull-right">
+                <a href="../en/reservation">
+                    <img src="../img/en.png" title="English">
+                </a>
+                <a href="../ru/reservation">
+                    <img src="../img/ru.png" title="Русский">
+                </a>
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse pull-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="../">Naslovna</a></li>
+                    <li><a href="../#visit">Destinacije</a></li>
+                    <li><a href="../#apartments">Apartmani</a></li>                                        
+                    <li><a href="../#contact">Kontakt</a></li>
+                    <li class="active"><a href="../rezervacija">Rezervacija</a></li>
+
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+    <!-- Carousel
+        ================================================== -->
+    <div id="slider" class="carousel slide page-cover" data-ride="carousel">
+
+
+
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+
+                <div class="carousel-image" style="background-image: url('../slider/3.jpg')"></div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <!-- /.carousel -->
+
+
+
+
+
+
+
+
+
+    <div class="page reservation">
+        <div class="container">
+            <h3>Rezervacija</h3>
+
+            <p style="text-align:center">Pošaljite nam zahtjev za rezervaciju i dobićete odgovor u roku od sat vremena</p>
+
+            <form class="rezervacija" role="form" data-toggle="validator" action="?option=send" method="post" style="max-width:700px;margin:0 auto">
+
+                <!-- https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+                <!-- http://www.malot.fr/bootstrap-datetimepicker/demo.php -->
+
+
+
+                <div class="col-md-6 col-xs-12">
+                    <label for="ime" class="control-label">
+                        Ime
+                    </label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="ime" name="ime" required>
+                        <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xs-12">
+                    <label for="prezime" class="control-label">
+                        Prezime
+                    </label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="prezime" name="prezime" required>
+                        <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                    </div>
+                </div>
+
+
+                
+                <div class="col-md-6 col-xs-12">
+                    <label for="telefon" class="control-label">
+                        Telefon
+                    </label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="telefon" name="telefon" required>
+                        <div class="input-group-addon"><i class="fa fa-phone"></i></div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-xs-12">
+                    <label for="email" class="control-label">
+                        Email <span>(nije obavezno)</span>
+                    </label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="email" name="email">
+                        <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-6 col-xs-12">
+                    <label for="prijava" class="control-label">
+                        Prijava
+                    </label>
+                    <div class="input-group">
+                        <input type="text" class="form-control date form_date" id="prijava" name="prijava" value="" data-date="" data-date-format="dd.mm.yyyy" data-link-format="yyyy-mm-dd" readonly required>
+                        <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xs-12">
+                    <label for="odjava" class="control-label">
+                        Odjava
+                    </label>
+                    <div class="input-group">
+                        <input type="text" class="form-control date form_date" id="odjava" name="odjava" value="" data-date="" data-date-format="dd.mm.yyyy" data-link-format="yyyy-mm-dd" readonly required>
+                        <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-12 col-xs-12">
+                    <label for="odrasli" class="control-label">
+                        Apartman
+                    </label>
+                    <div class="form-group">
+                        <select class="form-control" id="odrasli" name="odrasli" required>
+
+                            <option selected="" disabled="" value=""> </option>
+                            <option value="Harmony 1">Harmony 1 (4 osobe)</option>
+                            <option value="Harmony 2">Harmony 2 (2 osobe)</option>
+                        </select>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="col-xs-12">
+                    <label for="poruka">
+                        Poruka
+                    </label>
+                    <textarea rows="4" class="form-control" id="poruka" name="poruka"></textarea>
+                </div>
+
+
+                <div class="col-xs-12">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">
+                            Pošalji
+                        </button>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+
+        <div class="container clearfix">
+
+            <p class="icons">
+                <a href="https://www.facebook.com/ApartmentsHarmony/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/apartmentsharmony/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://foursquare.com/v/apartments-harmony--vi%C5%A1egrad/5923d10e12f0a931781b2bb9" target="_blank"><i class="fa fa-foursquare"></i></a>
+            </p>
+
+            <div class="copyright center-block">Apartmani Harmony - Višegrad</div>
+
+            <p class="webdesign center-block">
+                <a href="http://www.darkomitrovic.com/" target="_blank">Web design Darko Mitrović</a>
+            </p>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="../js/script.js"></script>
+
+
+
+
+
+    <script>
+        // For Demo purposes only (show hover effect on mobile devices)
+			[].slice.call(document.querySelectorAll('a[href="#"')).forEach(function (el) {
+            el.addEventListener('click', function (ev) {
+                ev.preventDefault();
+            });
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $('.navbar').affix({
+            offset: {
+                top: $('#top-menu').height()
+            }
+        });
+    </script>
+
+
+    <script src="../js/carousel-swipe.js"></script>
+    <script type="text/javascript">
+        $(".slide").carousel();
+    </script>
+
+
+    <!--<script src="../js/validator.min.js"></script>-->
+
+    <script type="text/javascript" src="../js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="../js/locales/bootstrap-datetimepicker.rs-latin.js" charset="UTF-8"></script>
+    <script type="text/javascript">
+        $('.form_datetime').datetimepicker({
+            language:  'rs-latin',
+            weekStart: 1,
+            todayBtn:  1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            forceParse: 0,
+            showMeridian: 1
+        });
+        $('.form_date').datetimepicker({
+            language:  'rs-latin',
+            weekStart: 1,
+            todayBtn:  1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            minView: 2,
+            forceParse: 0
+        });
+        $('.form_time').datetimepicker({
+            language:  'rs-latin',
+            weekStart: 1,
+            todayBtn:  1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 1,
+            minView: 0,
+            maxView: 1,
+            forceParse: 0
+        });
+    </script>
+
+
+</body>
+
+</html>
